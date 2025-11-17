@@ -1,0 +1,7 @@
+<h1>Result</h1>
+
+<p><%= @result %></p>
+
+<p><strong>Total score:</strong> <%= session[:score] || 0 %></p>
+
+<%= link_to "Play again", new_path, class: "btn btn-success mt-3" %>
